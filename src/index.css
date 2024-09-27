@@ -1,0 +1,26 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@media (max-height: 950px) {
+  h1{
+    top: -5%;
+  }
+}
+
+@media (max-height: 350px) {
+  h1{
+    top: -5%;
+  }
+}
+
+main {
+  /* z-index: 1; either this OR*/
+  /* position: relative; */
+  /* lets do it in tailwind way*/
+}
